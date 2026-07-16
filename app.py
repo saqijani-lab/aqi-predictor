@@ -33,7 +33,10 @@ elif predicted_aqi <= 200:
 else:
     category, color = "Very Unhealthy", "darkred"
 
-st.markdown(f"**Air Quality Category:** :{color}[{category}]")
+st.markdown(
+    f"**Air Quality Category:** <span style='color:{color}; font-weight:bold'>{category}</span>",
+    unsafe_allow_html=True
+)
 
 st.divider()
 
