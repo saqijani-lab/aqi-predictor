@@ -2,7 +2,7 @@
 
 A simple machine learning project that predicts the **Air Quality Index (AQI)** from temperature using linear regression — built from scratch as a first hands-on ML project.
 
-🔗 **Live App:** _add your Streamlit link here once deployed_
+🔗 **Live App:** (https://aqi-predictor-ab077.streamlit.app/)
 
 ---
 
